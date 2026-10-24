@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy Policy for Molly Uploader. Access tokens stay on the operator’s private computer and are never shared or sold.">
+  <title>Privacy Policy — Molly Uploader</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --bg: #f4f1eb;
+      --paper: #fffcf8;
+      --ink: #221e1b;
+      --muted: #5e5852;
+      --line: #e6dfd6;
+      --accent: #7a342c;
+      --accent-soft: #f3e6e2;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+    a { color: var(--accent); }
+    a:hover { text-decoration-thickness: 2px; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+    code {
+      font-family: ui-monospace, "Cascadia Code", "Segoe UI Mono", Menlo, Consolas, monospace;
+      font-size: 0.92em;
+    }
+    .wrap {
+      width: min(40rem, calc(100% - 2rem));
+      margin: 0 auto;
+      padding: 1.5rem 0 3rem;
+    }
+    header {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 0.75rem 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--line);
+    }
+    .brand {
+      color: var(--ink);
+      font-weight: 650;
+      letter-spacing: -0.02em;
+      text-decoration: none;
+    }
+    nav { display: flex; gap: 1rem; }
+    nav a { font-size: 0.95rem; }
+    main {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      margin-top: 1.5rem;
+      padding: 1.5rem 1.25rem 1.75rem;
+    }
+    h1 {
+      font-family: Georgia, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+      font-size: clamp(1.8rem, 4vw, 2.35rem);
+      font-weight: 600;
+      letter-spacing: -0.03em;
+      line-height: 1.2;
+      margin: 0 0 0.75rem;
+    }
+    .updated { color: var(--muted); font-size: 0.92rem; margin: 0 0 0.5rem; }
+    h2 { font-size: 1.05rem; margin: 1.4rem 0 0.35rem; }
+    p { font-size: 1.02rem; margin: 0.4rem 0 0; }
+    footer { color: var(--muted); font-size: 0.9rem; margin-top: 1.25rem; }
+    @media (max-width: 480px) {
+      .wrap { width: min(40rem, calc(100% - 1.25rem)); }
+      main { padding: 1.25rem 1rem 1.4rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="index.html">Molly Uploader</a>
+      <nav aria-label="Legal">
+        <a href="terms.html">Terms</a>
+        <a href="privacy.html" aria-current="page">Privacy</a>
+      </nav>
+    </header>
+    <main>
+      <h1>Privacy Policy</h1>
+      <p class="updated">Last updated October 24, 2026</p>
+
+      <h2>Who this covers</h2>
+      <p>Molly Uploader is a private tool operated by Yoon Molly (Heeyoung Youn). It is used only for the operator’s own TikTok account. No data from other users is collected.</p>
+
+      <h2>TikTok access</h2>
+      <p>With the account owner’s authorization, the tool uses TikTok Login Kit to obtain an access token. That token is used with the <code>user.info.basic</code> and <code>video.upload</code> permissions so the operator can upload the operator’s own videos as drafts through the TikTok Content Posting API (inbox upload).</p>
+
+      <h2>How tokens are stored</h2>
+      <p>Access tokens are stored only on the operator’s private computer. They are never shared or sold.</p>
+
+      <h2>Revoking access</h2>
+      <p>The account owner can revoke access in TikTok settings. When access is revoked, the stored tokens are deleted.</p>
+
+      <h2>Contact</h2>
+      <p>Yoon Molly, via the YouTube channel “Yoon! Molly”.</p>
+    </main>
+    <footer>
+      <p><a href="terms.html">Terms of Service</a></p>
+    </footer>
+  </div>
+</body>
+</html>
